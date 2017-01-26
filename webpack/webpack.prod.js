@@ -14,11 +14,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = function() {
 	return webpackMerge(webpackBase, {
-		resolve: {
-			alias: {
-				'config': path.resolve(config.src, 'config', 'prod.js')
-			}
-		},
 		plugins: [
 			new HtmlWebpackPlugin({
 				template: path.resolve(config.src, 'index.html'),

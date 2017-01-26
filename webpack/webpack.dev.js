@@ -19,11 +19,6 @@ module.exports = function() {
 			historyApiFallback: true,
 			port: 3000
 		},
-		resolve: {
-			alias: {
-				'config': path.resolve(config.src, 'config', 'dev.js')
-			}
-		},
 		plugins: [
 			new HtmlWebpackPlugin({
 				template: path.resolve(config.src, 'index.html'),
