@@ -1,3 +1,10 @@
-import Style from './css/index.scss';
+/**
+ * Load CSS file
+ * (Will be extracted during build process)
+ */
+import './css/index.scss';
 
-import App from './js/app';
+/**
+ * Load main app file
+ */
+import './js/app';

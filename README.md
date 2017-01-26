@@ -16,11 +16,17 @@ Run `npm run dev`
 
 A development server will be started at [http://localhost:3000](http://localhost:3000)
 
-## Build
+## Development build
 
-Run `npm run build`
+Run `npm run build:dev`
 
 This will generate a `/build` folder with all the bundled assets.
+
+## Production build
+
+Run `npm run build:prod`
+
+This will generate a `/build` folder with all the bundled & minified assets.
 
 ## License
 
