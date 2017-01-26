@@ -12,7 +12,9 @@
   "keywords": [
     "vue",
     "webpack",
-    "starterkit"
+    "starterkit",
+    "webpack2",
+    "babel"
   ],
   "author": "Wouter De Loose",
   "license": "ISC",
